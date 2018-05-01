@@ -33,3 +33,6 @@
 
 # Bazel output
 bazel-*
+
+# macOS
+.DS_Store

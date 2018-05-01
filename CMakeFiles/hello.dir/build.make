@@ -79,16 +79,19 @@ hello_EXTERNAL_OBJECTS =
 
 hello: CMakeFiles/hello.dir/hello.cpp.o
 hello: CMakeFiles/hello.dir/build.make
+hello: abseil-cpp/absl/algorithm/libabsl_algorithm.a
 hello: abseil-cpp/absl/base/libabsl_base.a
-hello: abseil-cpp/absl/synchronization/libabsl_synchronization.a
+hello: abseil-cpp/absl/memory/libabsl_memory.a
 hello: abseil-cpp/absl/strings/libabsl_strings.a
+hello: abseil-cpp/absl/synchronization/libabsl_synchronization.a
 hello: abseil-cpp/absl/time/libabsl_time.a
-hello: abseil-cpp/absl/debugging/libabsl_stacktrace.a
-hello: abseil-cpp/absl/numeric/libabsl_int128.a
+hello: abseil-cpp/absl/utility/libabsl_utility.a
+hello: abseil-cpp/absl/base/libabsl_throw_delegate.a
 hello: abseil-cpp/absl/base/libabsl_base.a
 hello: abseil-cpp/absl/base/libabsl_dynamic_annotations.a
 hello: abseil-cpp/absl/base/libabsl_spinlock_wait.a
-hello: abseil-cpp/absl/base/libabsl_throw_delegate.a
+hello: abseil-cpp/absl/debugging/libabsl_stacktrace.a
+hello: abseil-cpp/absl/numeric/libabsl_int128.a
 hello: CMakeFiles/hello.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/davidstanke/gitroot/davidstanke/abseil-demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)

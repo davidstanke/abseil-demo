@@ -16,4 +16,12 @@ endif()
 add_subdirectory(abseil-cpp)
 
 add_executable(hello hello.cpp)
-target_link_libraries(hello absl::base absl::synchronization absl::strings)
+target_link_libraries(
+	hello 
+	absl::algorithm 
+	absl::base 
+	absl::memory
+	absl::strings
+	absl::synchronization
+	absl::time
+	absl::utility)

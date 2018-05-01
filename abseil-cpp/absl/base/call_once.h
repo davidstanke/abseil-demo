@@ -154,7 +154,7 @@ void CallOnceImpl(std::atomic<uint32_t>* control,
           FATAL,
           "Unexpected value for control word: %lx. Either the control word "
           "has non-static storage duration (where GoogleOnceDynamic might "
-          "be appropriate), or there's been a memory corruption!",
+          "be appropriate), or there's been a memory corruption!!!",
           static_cast<unsigned long>(old_control)); // NOLINT
     }
   }

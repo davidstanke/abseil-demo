@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/davidstanke/gitroot/davidstanke/abseil-demo/abseil-cpp/absl/debugging/leak_check.cc
+absl/debugging/leak_check.h
+/Users/davidstanke/gitroot/davidstanke/abseil-demo/abseil-cpp/absl/debugging/absl/debugging/leak_check.h
+sanitizer/lsan_interface.h
+-
+
+abseil-cpp/absl/debugging/leak_check.h
+cstddef
+-
+

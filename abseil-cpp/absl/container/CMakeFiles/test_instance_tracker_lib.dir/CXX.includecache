@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/davidstanke/gitroot/davidstanke/abseil-demo/abseil-cpp/absl/container/internal/test_instance_tracker.cc
+absl/container/internal/test_instance_tracker.h
+/Users/davidstanke/gitroot/davidstanke/abseil-demo/abseil-cpp/absl/container/internal/absl/container/internal/test_instance_tracker.h
+
+abseil-cpp/absl/container/internal/test_instance_tracker.h
+cstdlib
+-
+ostream
+-
+

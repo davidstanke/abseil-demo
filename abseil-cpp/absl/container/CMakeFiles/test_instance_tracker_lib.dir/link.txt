@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libtest_instance_tracker_lib.a  CMakeFiles/test_instance_tracker_lib.dir/internal/test_instance_tracker.cc.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libtest_instance_tracker_lib.a

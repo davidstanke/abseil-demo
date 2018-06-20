@@ -1,0 +1,5 @@
+# This directory is where we perform the CMake --> Make build
+# So, ignore everything in this directory
+*
+# ...except this file
+!.gitignore

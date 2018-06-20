@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(hello_world)
 
-set(CMAKE_CXX_FLAGS "-std=c++11 -stdlib=libc++ ${CMAKE_CXX_FLAGS}")
+set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
 
 if(MSVC)
   # /wd4005  macro-redefinition

@@ -1,0 +1,6 @@
+# Credentials in this folder should not be committed to source...
+*
+# ...unless it's encrypted (as indicated by a *.enc extention)
+!*.enc
+# ...and retain this file
+!.gitignore

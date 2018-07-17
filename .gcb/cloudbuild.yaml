@@ -1,0 +1,2 @@
+- name: 'gcr.io/cloud-builders/bazel'
+  args: ['bazel','build','hello']
